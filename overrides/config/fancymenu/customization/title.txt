@@ -1,0 +1,245 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = Title
+  action = setbackgroundpanorama
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = bottom-centered
+  x = 30
+  action = movebutton
+  y = -122
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 128
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  orientation = bottom-centered
+  x = -167
+  action = movebutton
+  y = -85
+}
+
+customization {
+  identifier = %id=button_compatibility_id:modmenu_titlescreen_mods_button%
+  width = 89
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = bottom-centered
+  x = 7
+  action = movebutton
+  y = -55
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = bottom-centered
+  x = -167
+  action = movebutton
+  y = -122
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 111
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = bottom-centered
+  x = -55
+  action = movebutton
+  y = -85
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 86
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = bottom-centered
+  x = 53
+  action = movebutton
+  y = -85
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 105
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = bottom-centered
+  x = -48
+  action = movebutton
+  y = -55
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 5479c426-fc26-408a-8e7c-2aa295ad2e6c1691758929744
+  y = 528
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = ec1b302b-bd19-4e25-b401-c4d0fab11cdb1691758929754
+  y = 235
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 91f07e89-7f02-4e82-a3d9-1b9216c6b0791691758929755
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = dea6fdf7-61e4-43dd-aff7-0cbeb79e381c1691758929755
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/avuMArx9kr%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/discord.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel =                              Our Discord
+  x = -198
+  width = 29
+  action = addbutton
+  actionid = 4dfbc06e-4c30-4777-9b89-07e0c770957b1691760744594
+  y = -61
+  backgroundnormal = config/fancymenu/assets/discord.png
+  height = 25
+}
+
+customization {
+  orientation = bottom-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;http://dgafdev.com%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/assets/dgaf.png
+  label = 
+  loopbackgroundanimations = true
+  hoverlabel =                                               Visit DGAF Development
+  x = 160
+  width = 26
+  action = addbutton
+  actionid = f178497b-b993-40fc-a59d-e7d5b18941aa1691760904973
+  y = -58
+  backgroundnormal = config/fancymenu/assets/dgaf.png
+  height = 22
+}
+
+customization {
+  path = config/fancymenu/assets/title.png
+  orientation = top-centered
+  x = -339
+  width = 690
+  action = addtexture
+  actionid = ec7219d5-46a3-415c-82e0-7b73283ec86a1691854020549
+  y = 0
+  height = 100
+}
+
+customization {
+  orientation = top-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Version .003
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -199
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = e2e32483-223a-4528-98e3-1bb6351438051691854121316
+  y = 89
+  alignment = left
+  height = 40
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = DGAF Development (2023)
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -199
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 4d939303-5865-41f0-b88a-359cdc9c5db61691854247769
+  y = -27
+  alignment = left
+  height = 40
+}
+

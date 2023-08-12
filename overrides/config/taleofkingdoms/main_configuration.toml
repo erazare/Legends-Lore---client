@@ -1,0 +1,7 @@
+showStartKingdomGUI = false
+showContinueConquestGUI = false
+gateWaySpawnRate = 55
+reficuleVillageSpawnRate = 45
+banditCampSpawnRate = 60
+alwaysShowUpdatesGUI = false
+developerMode = false
